@@ -1,0 +1,63 @@
+:root{
+
+    --main-color: #24353f;
+    --sec-color: #17a2b8;
+}
+
+
+
+body{
+    background: var(--main-color);
+    font-family: 'Titillium Web', sans-serif;
+}
+
+
+.container {
+
+    border-radius: 5px;
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+    width: 58%;
+    
+}
+
+.container  input{
+
+    background-color:  var(--main-color) ;
+    color: #ced4da  !important;
+
+}
+
+.container  input:focus{
+
+    background-color:  var(--main-color) ;
+    color: #fff !important;
+    box-shadow: 0 0 0 0rem rgba(13,110,253,.25)
+}
+
+h1
+{
+    color: var(--sec-color);
+    font-size: 900;
+}
+
+.container  .btn  {
+
+    border-color: var(--sec-color)  !important;
+}
+
+.container  .btn:focus  {
+
+    border-color: var(--sec-color)  !important;
+    background-color:  var(--sec-color)  !important;
+}
+
+
+.container  .sign  a  
+{
+    text-decoration: none;
+
+}
+
+.valid{
+    color:  green;
+}
